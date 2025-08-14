@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	font-family: "Courier New", monospace;
+}
+
+body {
+	background-color: #ACBEA3;l
+}
+
+.header {
+	background: #826754;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	border: 4px dotted #ACBEA3;
+	text-decoration: underline;
+	color: #ACBEA3;
+}
+
+.content {
+	background: #826754;
+	margin: 10px auto;
+	width: 50%;
+	padding: 10px;
+	border: 4px dotted #ACBEA3;
+	color: #ACBEA3;
+}
+
+a {
+	color: #ACBEA3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+img {
+	float: right;
+}

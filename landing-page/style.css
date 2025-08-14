@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		font-family: "Roboto", sans-serif;
+}
+
+header,
+footer {
+	background-color: #1F2937;
+	padding: 1em 18em;
+}
+
+/***** HEADER *****/
+
+h1 {
+	font-size: 24px;
+	color: #F9FAF8;
+	text-wrap: wrap;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 3em;
+	gap: 3em;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	margin-left: 24px;
+	text-wrap: nowrap;
+}
+
+.hero {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+
+.secondary {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+button {
+	background-color: #3882F6;
+	color: white;
+	font-weight: bold;
+	padding: 7px 2em;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+/******************/
+
+/****** MAIN ******/
+
+.column {
+	flex-direction: column;
+	align-items: space-between;
+	flex-wrap: wrap;
+	margin-top: 4em;
+	gap: 2em;
+}
+
+.information-h1 {
+	font-size: 36px;
+	color: #1F2937;
+}
+
+.card {
+	text-align: center;
+	width: 160px;
+}
+
+.card-image {
+	border: 2px solid #3882F6;
+	border-radius: 10px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	padding: 4em 30em;
+}
+
+.quote i {
+	font-size: 36px;
+	font-weight: 100;
+	color: #1F2937;
+}
+
+.quote p {
+	align-self: flex-end;
+	font-weight: bold;
+}
+
+.action {
+	background-color: #3882F6;
+	margin: 0 30em;
+	padding: 3em 6em;
+	border-radius: 10px;
+}
+
+.action p {
+	color: white;
+}
+
+.action button {
+	border: 2px solid white;
+}
+
+/******************/
+
+/***** FOOTER *****/
+
+footer {
+	color: white;
+	text-align: center;
+	margin-top: 3em;
+	padding: 2em;
+	font-size: 14px;
+}
+
+/******************/
