@@ -3,8 +3,30 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Rock Paper Scissors</title>
-		<script src="script.js"></script>
+		<script defer src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Wendy+One&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div class="center">
+			<div class="scoreboard">
+				<h1 id="score__player">0</h1>
+				<h1 id="score__text">Welcome!</h1>
+				<h1 id="score__computer">0</h1>
+			</div>
+			<div class="card__wrapper">
+				<button class="button__computer" id="ROCK--comp">✊</button>
+				<button class="button__computer" id="PAPER--comp">✋</button>
+				<button class="button__computer" id="SCISSORS--comp">✌️</button>
+			</div>
+
+			<div class="card__wrapper">
+				<button class="button__player" id="ROCK">✊</button>
+				<button class="button__player" id="PAPER">✋</button>
+				<button class="button__player" id="SCISSORS">✌️</button>
+			</div>
+		</div>
 	</body>
 </html>
